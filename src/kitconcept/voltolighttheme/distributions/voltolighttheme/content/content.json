@@ -26729,7 +26729,7 @@
     "working_copy_of": null
 },
 {
-  "@id": "/slider-block",
+  "@id": "/example/slider-block",
   "@type": "Document",
   "UID": "6544619a81f4461899f9f7c12602da3f",
   "allow_discussion": false,
