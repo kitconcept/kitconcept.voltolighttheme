@@ -1010,6 +1010,18 @@
             },
             "title": "Button"
         },
+        "d792eaa5-73c2-45f1-9662-756dedf86cd1": {
+            "@type": "__button",
+            "inneralign": "left",
+            "styles": {
+                "buttonAlign": "wide"
+            },
+            "title": "Button"
+        },
+        "df11761d-5c33-41ca-aa23-3e20924b2d5d": {
+            "@type": "slate",
+            "styles": {}
+        },
         "e5e851c5-d634-4c70-b720-024c98d38c6d": {
             "@type": "teaser",
             "description": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper ",
@@ -1507,7 +1519,9 @@
             "eb4928c3-4cfd-4876-bedd-28ff45b3fe60",
             "9ec8a368-7228-448d-a131-706e135be5c2",
             "6028b24e-15ee-4c4f-8ff3-1d693c3546bb",
-            "85655a82-c662-4626-a1dd-cded660ee494"
+            "85655a82-c662-4626-a1dd-cded660ee494",
+            "d792eaa5-73c2-45f1-9662-756dedf86cd1",
+            "df11761d-5c33-41ca-aa23-3e20924b2d5d"
         ]
     },
     "contributors": [],
