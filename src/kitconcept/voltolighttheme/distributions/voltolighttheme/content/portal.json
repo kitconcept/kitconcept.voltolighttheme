@@ -1,4 +1,4 @@
-{
+[{
     "@id": "/Plone",
     "@type": "Plone Site",
     "UID": "c3154008985841c9a35eae6280d43cca",
@@ -1537,4 +1537,4 @@
     "table_of_contents": null,
     "title": "Welcome to volto-light-theme",
     "type_title": "Plone Site"
-}
+}]
