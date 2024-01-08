@@ -5,41 +5,59 @@
 >
   <action-provider name="portal_actions" />
   <object meta_type="CMF Action Category"
-          name="portal_tabs"
+          name="document_actions"
   >
     <object meta_type="CMF Action"
-            name="index_html"
+            name="sendto"
             i18n:domain="plone"
     >
-      <property name="visible">False</property>
-    </object>
-  </object>
-  <object meta_type="CMF Action Category"
-          name="user"
-  >
-    <object meta_type="CMF Action"
-            name="preferences"
-            i18n:domain="plone"
-    >
+      <property name="title"
+                i18n:translate=""
+      >Google</property>
+      <property name="description"
+                i18n:translate=""
+      />
+      <property name="url_expr">string:https://www.google.com</property>
+      <property name="icon_expr" />
+      <property name="available_expr">object/@@shareable</property>
       <property name="visible">True</property>
     </object>
-    <object meta_type="CMF Action"
-            name="dashboard"
-            i18n:domain="plone"
+    <object meta_type="CMF Action Category"
+            name="portal_tabs"
     >
-      <property name="visible">False</property>
+      <object meta_type="CMF Action"
+              name="index_html"
+              i18n:domain="plone"
+      >
+        <property name="visible">False</property>
+      </object>
     </object>
-    <object meta_type="CMF Action"
-            name="login"
-            i18n:domain="plone"
+    <object meta_type="CMF Action Category"
+            name="user"
     >
-      <property name="visible">False</property>
+      <object meta_type="CMF Action"
+              name="preferences"
+              i18n:domain="plone"
+      >
+        <property name="visible">True</property>
+      </object>
+      <object meta_type="CMF Action"
+              name="dashboard"
+              i18n:domain="plone"
+      >
+        <property name="visible">False</property>
+      </object>
+      <object meta_type="CMF Action"
+              name="login"
+              i18n:domain="plone"
+      >
+        <property name="visible">False</property>
+      </object>
+      <object meta_type="CMF Action"
+              name="join"
+              i18n:domain="plone"
+      >
+        <property name="visible">False</property>
+      </object>
     </object>
-    <object meta_type="CMF Action"
-            name="join"
-            i18n:domain="plone"
-    >
-      <property name="visible">False</property>
-    </object>
-  </object>
-</object>
+  </object></object>
