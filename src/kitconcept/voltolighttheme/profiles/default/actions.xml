@@ -5,59 +5,65 @@
 >
   <action-provider name="portal_actions" />
   <object meta_type="CMF Action Category"
-          name="document_actions"
+          name="portal_tabs"
   >
     <object meta_type="CMF Action"
-            name="sendto"
+            name="index_html"
+            i18n:domain="plone"
+    >
+      <property name="visible">False</property>
+    </object>
+  </object>
+
+  <object meta_type="CMF Action Category"
+          name="site_actions"
+  >
+    <object meta_type="CMF Action"
+            name="github-link"
             i18n:domain="plone"
     >
       <property name="title"
                 i18n:translate=""
-      >Google</property>
+      >Github</property>
       <property name="description"
                 i18n:translate=""
       />
-      <property name="url_expr">string:https://www.google.com</property>
-      <property name="icon_expr" />
-      <property name="available_expr">object/@@shareable</property>
+      <property name="url_expr">string:https://github.com/kitconcept/volto-light-theme</property>
+      <property name="icon_expr">string:github-link</property>
+      <property name="available_expr" />
+      <property name="permissions">
+        <element value="View" />
+      </property>
       <property name="visible">True</property>
     </object>
-    <object meta_type="CMF Action Category"
-            name="portal_tabs"
+  </object>
+
+  <object meta_type="CMF Action Category"
+          name="user"
+  >
+    <object meta_type="CMF Action"
+            name="preferences"
+            i18n:domain="plone"
     >
-      <object meta_type="CMF Action"
-              name="index_html"
-              i18n:domain="plone"
-      >
-        <property name="visible">False</property>
-      </object>
+      <property name="visible">True</property>
     </object>
-    <object meta_type="CMF Action Category"
-            name="user"
+    <object meta_type="CMF Action"
+            name="dashboard"
+            i18n:domain="plone"
     >
-      <object meta_type="CMF Action"
-              name="preferences"
-              i18n:domain="plone"
-      >
-        <property name="visible">True</property>
-      </object>
-      <object meta_type="CMF Action"
-              name="dashboard"
-              i18n:domain="plone"
-      >
-        <property name="visible">False</property>
-      </object>
-      <object meta_type="CMF Action"
-              name="login"
-              i18n:domain="plone"
-      >
-        <property name="visible">False</property>
-      </object>
-      <object meta_type="CMF Action"
-              name="join"
-              i18n:domain="plone"
-      >
-        <property name="visible">False</property>
-      </object>
+      <property name="visible">False</property>
     </object>
-  </object></object>
+    <object meta_type="CMF Action"
+            name="login"
+            i18n:domain="plone"
+    >
+      <property name="visible">False</property>
+    </object>
+    <object meta_type="CMF Action"
+            name="join"
+            i18n:domain="plone"
+    >
+      <property name="visible">False</property>
+    </object>
+  </object>
+</object>
