@@ -19,12 +19,12 @@
           name="site_actions"
   >
     <object meta_type="CMF Action"
-            name="github-link"
+            name="github"
             i18n:domain="plone"
     >
       <property name="title"
                 i18n:translate=""
-      >Github</property>
+      >GitHub</property>
       <property name="description"
                 i18n:translate=""
       />
