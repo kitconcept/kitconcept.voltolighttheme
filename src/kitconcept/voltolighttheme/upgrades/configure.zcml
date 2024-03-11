@@ -3,17 +3,17 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
-  <!-- Example upgrade step
   <genericsetup:upgradeSteps
       profile="kitconcept.voltolighttheme:default"
       source="20230706001"
-      destination="20230229001"
+      destination="20240311001"
       >
-    <genericsetup:upgradeDepends
-        title="Update registry value"
-        import_steps="plone.app.registry"
+
+    <genericsetup:upgradeStep
+        title="Assign local permissions over sticky CTA button for Karriere"
+        handler=".migrate_backgroundColor"
         />
+
   </genericsetup:upgradeSteps>
-  -->
 
 </configure>
