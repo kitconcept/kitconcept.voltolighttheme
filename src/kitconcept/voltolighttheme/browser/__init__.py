@@ -20,6 +20,15 @@ COLOR_MAP = {
     },
 }
 
+WIDTH_MAP = {
+    "narrow": {
+        "--block-width": "var(--narrow-container-width)",
+    },
+    "wide": {
+        "--block-width": "var(--default-container-width)",
+    },
+}
+
 
 def migrate_backgroundColor(portal):
     i = 0
@@ -50,7 +59,43 @@ def migrate_backgroundColor(portal):
     return output
 
 
+def migrate_button_block_width(portal):
+    i = 0
+    output = ""
+    for brain in portal.portal_catalog(
+        object_provides="plone.restapi.behaviors.IBlocks"
+    ):
+        obj = brain.getObject()
+        blocks = obj.blocks
+        output += f"Processing {obj.absolute_url()}\n"
+        for block in visit_blocks(obj, blocks):
+            if (
+                block.get("@type", False)
+                and block["@type"] == "__button"
+                and block.get("styles", False)
+                and block["styles"].get("buttonAlign", False)
+                and block["styles"]["buttonAlign"] in ["narrow", "wide"]
+            ):
+                new_block = block.copy()
+                new_block["styles"]["blockWidth:noprefix"] = WIDTH_MAP.get(
+                    new_block["styles"]["buttonAlign"], ""
+                )
+                del new_block["styles"]["buttonAlign"]
+                block.clear()
+                block.update(new_block)
+                output += f'{obj.absolute_url()} - Updated "width"\n'
+        i += 1
+        if not i % 100:
+            logger.info(i)
+            transaction.commit()
+    transaction.commit()
+    return output
+
+
 class MigrateToV3(BrowserView):
     def __call__(self):
         alsoProvides(self.request, IDisableCSRFProtection)
-        return migrate_backgroundColor(self.context)
+        output = ""
+        output += migrate_backgroundColor(self.context) + "\n"
+        output += migrate_button_block_width(self.context) + "\n"
+        return output
