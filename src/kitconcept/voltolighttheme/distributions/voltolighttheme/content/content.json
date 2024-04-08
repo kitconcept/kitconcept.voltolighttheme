@@ -53,14 +53,14 @@
         "locked": false,
         "stealable": true
     },
-    "modified": "2024-02-14T11:01:54+00:00",
+    "modified": "2024-04-08T11:46:58+00:00",
     "nav_title": null,
     "parent": {
         "@id": "/",
         "@type": "Plone Site",
-        "UID": "c3154008985841c9a35eae6280d43cca",
-        "description": "A Plone Site",
-        "title": "Welcome to volto-light-theme",
+        "UID": "1b35b0f859044561a33e71e7fb74c277",
+        "description": "Site created with a new Plone Distribution",
+        "title": "Plone",
         "type_title": "Plone Site"
     },
     "preview_caption": null,
@@ -4047,7 +4047,7 @@
         "locked": false,
         "stealable": true
     },
-    "modified": "2024-02-14T11:01:54+00:00",
+    "modified": "2024-04-08T10:01:39+00:00",
     "nav_title": null,
     "parent": {
         "@id": "/block",
@@ -11394,6 +11394,1204 @@
     "working_copy": null,
     "working_copy_of": null
 },{
+    "@id": "/block/slider",
+    "@type": "Document",
+    "UID": "ccba1307927b4407ac855f1947fd4c99",
+    "allow_discussion": false,
+    "blocks": {
+        "15064f53-213d-48e7-a514-9d9cf0d187b2": {
+            "@type": "slider",
+            "autoplayDelay": 4000,
+            "autoplayEnabled": false,
+            "autoplayJump": false,
+            "slides": [
+                {
+                    "@id": "920b9ced-82a9-4301-87d6-07a53b3153d9",
+                    "buttonText": "Custom Button text",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "right",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Highlight"
+                },
+                {
+                    "@id": "7f0554c8-5e3f-4b7d-a5c9-330959fadf1b",
+                    "buttonText": "Custom Button text",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "right",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:57:57+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:57:57+05:30",
+                            "Subject": [],
+                            "Title": "Image - Light",
+                            "Type": "Image",
+                            "UID": "eec82559bf3242a6be4d43bc2096f399",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image-light",
+                            "getObjSize": "464.1 KB",
+                            "getPath": "/Plone/content-types/image-light",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image-light",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image-light",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:27:57+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image - Light",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Highlight"
+                },
+                {
+                    "@id": "947bea4f-de6b-4de3-bcaf-76e46a62dfb5",
+                    "buttonText": "Custom Button text",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Highlight"
+                }
+            ],
+            "styles": {
+                "backgroundColor": "grey"
+            }
+        },
+        "16a2702d-4fb0-4e73-a17c-884ef9d04e6d": {
+            "@type": "slider",
+            "autoplayDelay": 4000,
+            "autoplayEnabled": false,
+            "autoplayJump": false,
+            "slides": [
+                {
+                    "@id": "8089c4fd-efe2-4cf4-9ae5-7f80f907f16d",
+                    "description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/2f69aa417e894fd3bf23d393287b369e",
+                            "@type": "Document",
+                            "Description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                            "Title": "Heading",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "",
+                            "title": "Heading"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:58:04+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:58:04+05:30",
+                            "Subject": [],
+                            "Title": "Image",
+                            "Type": "Image",
+                            "UID": "970ec24c76784c66a06d8c8d8b6522b2",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image",
+                            "getObjSize": "676.8 KB",
+                            "getPath": "/Plone/content-types/image",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:28:04+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Heading"
+                },
+                {
+                    "@id": "ff22cdc3-2219-4b3e-b043-265e5d670770",
+                    "flagAlign": "left",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/405582582e70493c96a6c549444a1eaa",
+                            "@type": "Document",
+                            "Description": " The button block shows a button for which a link (internal or external) can be stored. The button can be displayed left, right or center and have a background color.",
+                            "Title": "Button",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "",
+                            "title": "Button"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:58:04+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:58:04+05:30",
+                            "Subject": [],
+                            "Title": "Image",
+                            "Type": "Image",
+                            "UID": "970ec24c76784c66a06d8c8d8b6522b2",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image",
+                            "getObjSize": "676.8 KB",
+                            "getPath": "/Plone/content-types/image",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:28:04+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Button"
+                },
+                {
+                    "@id": "decdd296-6aff-47e6-9aaf-a83c4f41470b",
+                    "description": "This section has a sample of content types available in this site.",
+                    "flagAlign": "left",
+                    "head_title": null,
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/e8178744e30a418b9a5768997bb29a19",
+                            "@type": "Document",
+                            "Description": "This section has a sample of content types available in this site.",
+                            "Title": "Content Types",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "image",
+                            "title": "Content Types"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:57:57+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:57:57+05:30",
+                            "Subject": [],
+                            "Title": "Image - Light",
+                            "Type": "Image",
+                            "UID": "eec82559bf3242a6be4d43bc2096f399",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image-light",
+                            "getObjSize": "464.1 KB",
+                            "getPath": "/Plone/content-types/image-light",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image-light",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image-light",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:27:57+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image - Light",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Content Types"
+                }
+            ],
+            "styles": {}
+        },
+        "2acaf75c-42b4-4a55-8810-664cfa9c8282": {
+            "@type": "slider",
+            "autoplayDelay": 4000,
+            "autoplayEnabled": false,
+            "autoplayJump": false,
+            "slides": [
+                {
+                    "@id": "07bee906-21d9-480f-a698-298e27b70c3c",
+                    "description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Heading"
+                },
+                {
+                    "@id": "e4b1eabd-9022-4516-9215-b7b7e4dd98e9",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:57:57+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:57:57+05:30",
+                            "Subject": [],
+                            "Title": "Image - Light",
+                            "Type": "Image",
+                            "UID": "eec82559bf3242a6be4d43bc2096f399",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image-light",
+                            "getObjSize": "464.1 KB",
+                            "getPath": "/Plone/content-types/image-light",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image-light",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image-light",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:27:57+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image - Light",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Highlight"
+                },
+                {
+                    "@id": "89d8ee31-831b-43ab-aa02-2b9d6a7ae0a9",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": null,
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Highlight"
+                }
+            ],
+            "styles": {
+                "backgroundColor": "grey"
+            }
+        },
+        "2ec50754-9d4a-49bb-a71b-957482028abe": {
+            "@type": "slider",
+            "autoplayDelay": 4000,
+            "autoplayEnabled": false,
+            "autoplayJump": false,
+            "slides": [
+                {
+                    "@id": "f470f258-c92f-4d0d-b627-34e4ac13a35e",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:57:57+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:57:57+05:30",
+                            "Subject": [],
+                            "Title": "Image - Light",
+                            "Type": "Image",
+                            "UID": "eec82559bf3242a6be4d43bc2096f399",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image-light",
+                            "getObjSize": "464.1 KB",
+                            "getPath": "/Plone/content-types/image-light",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image-light",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image-light",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:27:57+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image - Light",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Highlight"
+                },
+                {
+                    "@id": "b2cacf9a-9797-4d49-b861-cdb1a3889006",
+                    "description": " The introductory block allows the display of an introductory text, which is displayed larger than normal continuous text.",
+                    "flagAlign": "left",
+                    "head_title": null,
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/00cef5f245a342958288ace545e3c097",
+                            "@type": "Document",
+                            "Description": " The introductory block allows the display of an introductory text, which is displayed larger than normal continuous text.",
+                            "Title": "Introduction",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Introduction"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:57:57+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:57:57+05:30",
+                            "Subject": [],
+                            "Title": "Image - Light",
+                            "Type": "Image",
+                            "UID": "eec82559bf3242a6be4d43bc2096f399",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image-light",
+                            "getObjSize": "464.1 KB",
+                            "getPath": "/Plone/content-types/image-light",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image-light",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image-light",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:27:57+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image - Light",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Introduction"
+                }
+            ],
+            "styles": {}
+        },
+        "445aa65d-e0a0-47cb-9c49-7958d214db37": {
+            "@type": "heading",
+            "heading": "Custom Button Text",
+            "styles": {}
+        },
+        "5012da82-0e4a-44aa-912f-39d197a6a4e9": {
+            "@type": "title"
+        },
+        "6173dc0f-f2b9-4936-b4b9-64771fa065c9": {
+            "@type": "heading",
+            "heading": "Flag on the Right",
+            "styles": {}
+        },
+        "7eb40607-b61c-4560-ab45-7ede4c393e73": {
+            "@type": "slider",
+            "autoplayDelay": 4000,
+            "autoplayEnabled": false,
+            "autoplayJump": false,
+            "slides": [
+                {
+                    "@id": "6f6b08dd-fdf6-4478-ab9e-0de43448fe71",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Highlight"
+                },
+                {
+                    "@id": "169eb25f-62a4-4382-9af8-1b69bf248bbb",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": "Another Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Highlight"
+                },
+                {
+                    "@id": "35f6a8cf-4063-4b1f-8d44-aeaa9f970531",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": "This is third slider",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Highlight"
+                }
+            ],
+            "styles": {}
+        },
+        "8504088e-e855-43fd-a94d-b21ffa1e1fde": {
+            "@type": "slider",
+            "autoplayDelay": 4000,
+            "autoplayEnabled": false,
+            "autoplayJump": false,
+            "slides": [
+                {
+                    "@id": "7c6f7559-be1a-499d-b549-8ab7af952ce8",
+                    "description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                    "flagAlign": "right",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/2f69aa417e894fd3bf23d393287b369e",
+                            "@type": "Document",
+                            "Description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                            "Title": "Heading",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "",
+                            "title": "Heading"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:57:57+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:57:57+05:30",
+                            "Subject": [],
+                            "Title": "Image - Light",
+                            "Type": "Image",
+                            "UID": "eec82559bf3242a6be4d43bc2096f399",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image-light",
+                            "getObjSize": "464.1 KB",
+                            "getPath": "/Plone/content-types/image-light",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image-light",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image-light",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:27:57+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image - Light",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Heading"
+                },
+                {
+                    "@id": "b5d2ef08-b005-4823-88e6-4aa573cf6467",
+                    "description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                    "flagAlign": "right",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/425695d2b7cb47e69374d6f211f17e38",
+                            "@type": "Document",
+                            "Description": "",
+                            "Title": "Blocks",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "",
+                            "title": "Blocks"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:58:04+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:58:04+05:30",
+                            "Subject": [],
+                            "Title": "Image",
+                            "Type": "Image",
+                            "UID": "970ec24c76784c66a06d8c8d8b6522b2",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image",
+                            "getObjSize": "676.8 KB",
+                            "getPath": "/Plone/content-types/image",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:28:04+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Blocks"
+                },
+                {
+                    "@id": "558a8fb4-4474-4995-bf40-07a5d3a74d4c",
+                    "description": "This section has a sample of content types available in this site.",
+                    "flagAlign": "right",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/e8178744e30a418b9a5768997bb29a19",
+                            "@type": "Document",
+                            "Description": "This section has a sample of content types available in this site.",
+                            "Title": "Content Types",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "image",
+                            "title": "Content Types"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:58:04+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:58:04+05:30",
+                            "Subject": [],
+                            "Title": "Image",
+                            "Type": "Image",
+                            "UID": "970ec24c76784c66a06d8c8d8b6522b2",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image",
+                            "getObjSize": "676.8 KB",
+                            "getPath": "/Plone/content-types/image",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:28:04+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Content Types"
+                }
+            ],
+            "styles": {}
+        },
+        "86ca8d67-eb85-4ad0-bba8-8516ed019aae": {
+            "@type": "slider",
+            "autoplayDelay": 4000,
+            "autoplayEnabled": false,
+            "autoplayJump": false,
+            "slides": [
+                {
+                    "@id": "9cef6f40-1bb4-47e3-87fc-fa375fb66a30",
+                    "buttonText": "Button Text",
+                    "description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/425695d2b7cb47e69374d6f211f17e38",
+                            "@type": "Document",
+                            "Description": "",
+                            "Title": "Blocks",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "",
+                            "title": "Blocks"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:57:57+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:57:57+05:30",
+                            "Subject": [],
+                            "Title": "Image - Light",
+                            "Type": "Image",
+                            "UID": "eec82559bf3242a6be4d43bc2096f399",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image-light",
+                            "getObjSize": "464.1 KB",
+                            "getPath": "/Plone/content-types/image-light",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image-light",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image-light",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:27:57+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image - Light",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Blocks"
+                },
+                {
+                    "@id": "91d83870-6751-4d4b-9ce0-279463b0ce96",
+                    "buttonText": "Button Text",
+                    "description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                    "flagAlign": "left",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/2f69aa417e894fd3bf23d393287b369e",
+                            "@type": "Document",
+                            "Description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+                            "Title": "Heading",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "image_field": "",
+                            "title": "Heading"
+                        }
+                    ],
+                    "preview_image": [
+                        {
+                            "@id": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2",
+                            "@type": "Image",
+                            "CreationDate": "2023-07-07T03:05:08+05:30",
+                            "Creator": "admin",
+                            "Date": "2023-09-22T19:58:04+05:30",
+                            "Description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "EffectiveDate": "None",
+                            "ExpirationDate": "None",
+                            "ModificationDate": "2023-09-22T19:58:04+05:30",
+                            "Subject": [],
+                            "Title": "Image",
+                            "Type": "Image",
+                            "UID": "970ec24c76784c66a06d8c8d8b6522b2",
+                            "author_name": null,
+                            "cmf_uid": null,
+                            "commentators": [],
+                            "created": "2023-07-06T21:35:08+00:00",
+                            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                            "effective": "1969-12-30T18:30:00+00:00",
+                            "end": null,
+                            "exclude_from_nav": false,
+                            "expires": "2499-12-30T18:30:00+00:00",
+                            "getIcon": true,
+                            "getId": "image",
+                            "getObjSize": "676.8 KB",
+                            "getPath": "/Plone/content-types/image",
+                            "getRemoteUrl": null,
+                            "getURL": "http://localhost:3000/content-types/image",
+                            "hasPreviewImage": null,
+                            "head_title": null,
+                            "id": "image",
+                            "image_field": "image",
+                            "in_response_to": null,
+                            "is_folderish": false,
+                            "last_comment_date": null,
+                            "listCreators": [
+                                "admin"
+                            ],
+                            "location": null,
+                            "mime_type": "image/jpeg",
+                            "modified": "2023-09-22T14:28:04+00:00",
+                            "nav_title": null,
+                            "portal_type": "Image",
+                            "review_state": null,
+                            "start": null,
+                            "sync_uid": null,
+                            "title": "Image",
+                            "total_comments": 0,
+                            "type_title": "Image"
+                        }
+                    ],
+                    "title": "Heading"
+                },
+                {
+                    "@id": "b8dda2e8-018f-4fcf-bb9b-52d5fc4de582",
+                    "buttonText": "Button Text",
+                    "description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                    "flagAlign": "left",
+                    "head_title": "Custom Head Title",
+                    "href": [
+                        {
+                            "@id": "../../resolveuid/8416628543f146ff9a18d281c03e2399",
+                            "@type": "Document",
+                            "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+                            "Title": "Highlight",
+                            "hasPreviewImage": true,
+                            "head_title": null,
+                            "image_field": "preview_image",
+                            "title": "Highlight"
+                        }
+                    ],
+                    "title": "Highlight"
+                }
+            ],
+            "styles": {}
+        },
+        "9226ebdd-788b-49ea-bea0-42d8f1d9a398": {
+            "@type": "heading",
+            "heading": "Custom Image override",
+            "styles": {}
+        },
+        "c5f7eb49-a37e-4413-a985-1200aa5757b4": {
+            "@type": "heading",
+            "heading": "Slider with Grey Background",
+            "styles": {}
+        },
+        "c75ef0e0-c321-4b21-9ba4-dcff108e4176": {
+            "@type": "heading",
+            "heading": "Custom Head Title",
+            "styles": {}
+        },
+        "ead5079f-176d-4858-a75b-12f729249032": {
+            "@type": "slate"
+        }
+    },
+    "blocks_layout": {
+        "items": [
+            "5012da82-0e4a-44aa-912f-39d197a6a4e9",
+            "16a2702d-4fb0-4e73-a17c-884ef9d04e6d",
+            "6173dc0f-f2b9-4936-b4b9-64771fa065c9",
+            "8504088e-e855-43fd-a94d-b21ffa1e1fde",
+            "445aa65d-e0a0-47cb-9c49-7958d214db37",
+            "86ca8d67-eb85-4ad0-bba8-8516ed019aae",
+            "c75ef0e0-c321-4b21-9ba4-dcff108e4176",
+            "7eb40607-b61c-4560-ab45-7ede4c393e73",
+            "9226ebdd-788b-49ea-bea0-42d8f1d9a398",
+            "2ec50754-9d4a-49bb-a71b-957482028abe",
+            "c5f7eb49-a37e-4413-a985-1200aa5757b4",
+            "2acaf75c-42b4-4a55-8810-664cfa9c8282",
+            "15064f53-213d-48e7-a514-9d9cf0d187b2",
+            "ead5079f-176d-4858-a75b-12f729249032"
+        ]
+    },
+    "contributors": [],
+    "created": "2024-04-08T11:46:58+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "The Slider block allows you to add a slider to a page. A slider can display and tease multiple content on the website. Each piece of content is represented with an image containing the title, description and a button that leads to the linked content.\n",
+    "effective": "2024-04-08T17:54:20",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "slider",
+    "is_folderish": true,
+    "language": "en",
+    "layout": "document_view",
+    "lock": {
+        "locked": false,
+        "stealable": true
+    },
+    "modified": "2024-04-08T12:26:50+00:00",
+    "nav_title": null,
+    "parent": {
+        "@id": "/block",
+        "@type": "Document",
+        "UID": "425695d2b7cb47e69374d6f211f17e38",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Blocks",
+        "type_title": "Page"
+    },
+    "preview_caption": null,
+    "preview_image": null,
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "title": "Slider",
+    "type_title": "Page",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-04-08T11:46:58+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-04-08T12:24:20+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
     "@id": "/block/table-block",
     "@type": "Document",
     "UID": "102f648399914851951ffa3fefc8665c",
@@ -18426,14 +19624,14 @@
         "locked": false,
         "stealable": true
     },
-    "modified": "2024-02-14T11:01:54+00:00",
+    "modified": "2024-04-08T10:01:39+00:00",
     "nav_title": null,
     "parent": {
         "@id": "/",
         "@type": "Plone Site",
-        "UID": "c3154008985841c9a35eae6280d43cca",
-        "description": "A Plone Site",
-        "title": "Welcome to volto-light-theme",
+        "UID": "1b35b0f859044561a33e71e7fb74c277",
+        "description": "Site created with a new Plone Distribution",
+        "title": "Plone",
         "type_title": "Plone Site"
     },
     "preview_caption": null,
@@ -18473,13 +19671,101 @@
     "allow_discussion": false,
     "attendees": [],
     "blocks": {
-        "6e6979eb-af21-466f-b2de-3148144ac950": {
+        "14b738a2-68fe-47e0-8423-6bd08729e518": {
             "@type": "slate",
-            "plaintext": "",
+            "plaintext": "Text Heading H3",
             "styles": {},
             "value": [
                 {
                     "children": [
+                        {
+                            "text": "Text Heading H3"
+                        }
+                    ],
+                    "type": "h2"
+                }
+            ]
+        },
+        "16d5dba0-36f9-4531-8d7b-5f4c80611a99": {
+            "@type": "introduction",
+            "plaintext": " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "215b838b-d867-41ae-9db6-cb02b558ef51": {
+            "@type": "slate",
+            "plaintext": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": " "
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem Ipsum"
+                                }
+                            ],
+                            "type": "strong"
+                        },
+                        {
+                            "text": "\u00a0is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "26049a74-0ee3-4550-b48f-83bd20e0b943": {
+            "@type": "slate",
+            "plaintext": "Text can be bold or italic. ",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Text can be "
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "bold"
+                                }
+                            ],
+                            "type": "strong"
+                        },
+                        {
+                            "text": " or "
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "italic."
+                                }
+                            ],
+                            "type": "em"
+                        },
                         {
                             "text": ""
                         }
@@ -18488,18 +19774,1033 @@
                 }
             ]
         },
+        "3a7586f5-e7a5-4971-9f19-f462eacbadc9": {
+            "@type": "slate",
+            "plaintext": "Text Heading H3",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Text Heading H3"
+                        }
+                    ],
+                    "type": "h2"
+                }
+            ]
+        },
+        "52f8afe0-6a07-4e31-8873-8a3cc71f0f82": {
+            "@type": "slate",
+            "plaintext": " Link external ",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Link external"
+                                }
+                            ],
+                            "data": {
+                                "url": "https://www.google.com"
+                            },
+                            "type": "link"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "575ff5a5-4338-487d-8094-c79ec39fd89c": {
+            "@type": "slate",
+            "plaintext": "Ordered List Bullet Point One Ordered List Bullet Point Two Ordered List Bullet Point Three Ordered List Bullet Point Four",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "Ordered List Bullet Point One"
+                                }
+                            ],
+                            "type": "li"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Ordered List Bullet Point Two"
+                                }
+                            ],
+                            "type": "li"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Ordered List Bullet Point Three"
+                                }
+                            ],
+                            "type": "li"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Ordered List Bullet Point Four"
+                                }
+                            ],
+                            "type": "li"
+                        }
+                    ],
+                    "type": "ol"
+                }
+            ]
+        },
+        "62e7e65d-1ec4-4bda-b165-70f4c1f3a06b": {
+            "@type": "slate",
+            "plaintext": "Text Heading H3",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Text Heading H3"
+                        }
+                    ],
+                    "type": "h2"
+                }
+            ]
+        },
+        "64c03755-c963-4246-9d50-d4f3b1c4bef9": {
+            "@type": "separator",
+            "styles": {
+                "align": "left"
+            }
+        },
+        "6c792644-52e0-43d0-b79d-03741b7601bf": {
+            "@type": "slate",
+            "plaintext": " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "6e6979eb-af21-466f-b2de-3148144ac950": {
+            "@type": "slate",
+            "plaintext": "Text Heading H2",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Text Heading H2"
+                        }
+                    ],
+                    "type": "h2"
+                }
+            ]
+        },
+        "72051116-5330-4811-b55e-1603f77f3454": {
+            "@type": "slate",
+            "plaintext": " Link internal ",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Link internal"
+                                }
+                            ],
+                            "data": {
+                                "url": "../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70"
+                            },
+                            "type": "link"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "83e284ca-0432-4366-a0cc-0a3ac6ff0a37": {
+            "@type": "slate",
+            "plaintext": " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "87cc43e9-9d7a-46a2-b9f6-cdca0799c0dc": {
+            "@type": "slate",
+            "plaintext": "Unordered List Bullet Point One Unordered List Bullet Point Two Unordered List Bullet Point Three Unordered List Bullet Point Four",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "Unordered List Bullet Point One"
+                                }
+                            ],
+                            "type": "li"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Unordered List Bullet Point Two"
+                                }
+                            ],
+                            "type": "li"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Unordered List Bullet Point Three"
+                                }
+                            ],
+                            "type": "li"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Unordered List Bullet Point Four"
+                                }
+                            ],
+                            "type": "li"
+                        }
+                    ],
+                    "type": "ul"
+                }
+            ]
+        },
+        "8b411f87-c956-42d7-aa1b-106014029d31": {
+            "@type": "slate",
+            "plaintext": "Text Heading H3",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Text Heading H3"
+                        }
+                    ],
+                    "type": "h2"
+                }
+            ]
+        },
+        "8e182a56-eafe-4c44-8b5c-4b359906bc09": {
+            "@type": "slate",
+            "plaintext": "Text Heading H3",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Text Heading H3 "
+                        }
+                    ],
+                    "type": "h3"
+                }
+            ]
+        },
+        "93d980ba-5fb5-4ee0-93e3-60a84efd9809": {
+            "@type": "image",
+            "align": "left",
+            "credit": {},
+            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+            "image_field": "image",
+            "size": "m",
+            "styles": {
+                "size:noprefix": "medium"
+            },
+            "title": "Image",
+            "url": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+        },
+        "984ad5d1-eaf6-4de5-b86b-bbe089d11c58": {
+            "@type": "separator",
+            "styles": {
+                "align": "left"
+            }
+        },
+        "9c66f79a-8497-4d1b-9f99-9e960456f950": {
+            "@type": "image",
+            "align": "right",
+            "credit": {},
+            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+            "image_field": "image",
+            "size": "s",
+            "styles": {
+                "size:noprefix": "small"
+            },
+            "title": "Image - Light",
+            "url": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399"
+        },
+        "abd4a871-9d89-4644-bc03-b418f178b42b": {
+            "@type": "image",
+            "align": "right",
+            "credit": {},
+            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+            "image_field": "image",
+            "size": "l",
+            "styles": {
+                "size:noprefix": "large"
+            },
+            "title": "Image - Light",
+            "url": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399"
+        },
         "b539ed36-442b-4c7d-8b9b-8af01963c206": {
             "@type": "eventMetadata"
         },
+        "b5daf12e-2f85-4dff-b391-b03940e07171": {
+            "@type": "slate",
+            "plaintext": " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. "
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "b8233616-cf48-4584-b84c-efdf9701c75a": {
+            "@type": "slate",
+            "plaintext": " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. "
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "c1bde480-6d62-4541-86a2-708653087da9": {
+            "@type": "image",
+            "align": "left",
+            "credit": {},
+            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+            "image_field": "image",
+            "size": "l",
+            "title": "Image",
+            "url": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+        },
+        "c2349275-5079-482f-8a53-f0c8027677d0": {
+            "@type": "slate",
+            "plaintext": " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "cba86db9-97dd-41bc-971e-b06070680f5e": {
+            "@type": "slate",
+            "plaintext": " LISTS ",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "LISTS"
+                                }
+                            ],
+                            "type": "strong"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "cdd183ce-06fd-4163-958a-dc805ec77cef": {
+            "@type": "slate",
+            "plaintext": " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem ipsum"
+                                }
+                            ],
+                            "type": "em"
+                        },
+                        {
+                            "text": "\u00a0is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "cec7bbf3-f15b-47ce-956d-a77a1cbed3e6": {
+            "@type": "slate",
+            "plaintext": "Text Heading H3",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": "Text Heading H3"
+                        }
+                    ],
+                    "type": "h2"
+                }
+            ]
+        },
         "d3f1c443-583f-4e8e-a682-3bf25752a300": {
             "@type": "title"
+        },
+        "d8a81981-208b-4b52-9dc3-97e51fcf88a7": {
+            "@type": "separator",
+            "styles": {
+                "align": "left"
+            }
+        },
+        "e3e10827-d280-425b-8502-b5a2d995933a": {
+            "@type": "separator",
+            "styles": {
+                "align": "full"
+            }
+        },
+        "e55a4211-95d1-4731-8a94-f7f1aab6e273": {
+            "@type": "image",
+            "align": "center",
+            "credit": {},
+            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+            "image_field": "image",
+            "size": "l",
+            "title": "Image - Light",
+            "url": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399"
+        },
+        "e604a8eb-3b96-40b3-92e2-82c3c17c4e5d": {
+            "@type": "slate",
+            "plaintext": " Inline Styles ",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Inline Styles"
+                                }
+                            ],
+                            "type": "strong"
+                        },
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
+        },
+        "e7921d81-0885-4db9-8f1d-86fd4136f177": {
+            "@type": "image",
+            "align": "right",
+            "credit": {},
+            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+            "image_field": "image",
+            "size": "m",
+            "styles": {
+                "size:noprefix": "medium"
+            },
+            "title": "Image - Light",
+            "url": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399"
+        },
+        "ea90cbc3-c7eb-4a41-bfad-07e25b9c7b89": {
+            "@type": "image",
+            "align": "left",
+            "credit": {},
+            "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+            "image_field": "image",
+            "size": "s",
+            "styles": {
+                "size:noprefix": "small"
+            },
+            "title": "Image",
+            "url": "../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+        },
+        "efe22e15-ed62-499c-974e-cb0ab7d48e83": {
+            "@type": "separator",
+            "styles": {
+                "align": "full"
+            }
+        },
+        "fd86d3dc-237b-485a-aa31-aba34a667be2": {
+            "@type": "slate",
+            "plaintext": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "styles": {},
+            "value": [
+                {
+                    "children": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "children": [
+                                {
+                                    "text": "Lorem Ipsum"
+                                }
+                            ],
+                            "type": "strong"
+                        },
+                        {
+                            "text": "\u00a0is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                        }
+                    ],
+                    "type": "p"
+                }
+            ]
         }
     },
     "blocks_layout": {
         "items": [
             "d3f1c443-583f-4e8e-a682-3bf25752a300",
             "b539ed36-442b-4c7d-8b9b-8af01963c206",
-            "6e6979eb-af21-466f-b2de-3148144ac950"
+            "6e6979eb-af21-466f-b2de-3148144ac950",
+            "fd86d3dc-237b-485a-aa31-aba34a667be2",
+            "8e182a56-eafe-4c44-8b5c-4b359906bc09",
+            "215b838b-d867-41ae-9db6-cb02b558ef51",
+            "cba86db9-97dd-41bc-971e-b06070680f5e",
+            "575ff5a5-4338-487d-8094-c79ec39fd89c",
+            "87cc43e9-9d7a-46a2-b9f6-cdca0799c0dc",
+            "e604a8eb-3b96-40b3-92e2-82c3c17c4e5d",
+            "26049a74-0ee3-4550-b48f-83bd20e0b943",
+            "72051116-5330-4811-b55e-1603f77f3454",
+            "52f8afe0-6a07-4e31-8873-8a3cc71f0f82",
+            "e3e10827-d280-425b-8502-b5a2d995933a",
+            "16d5dba0-36f9-4531-8d7b-5f4c80611a99",
+            "efe22e15-ed62-499c-974e-cb0ab7d48e83",
+            "e55a4211-95d1-4731-8a94-f7f1aab6e273",
+            "d8a81981-208b-4b52-9dc3-97e51fcf88a7",
+            "abd4a871-9d89-4644-bc03-b418f178b42b",
+            "3a7586f5-e7a5-4971-9f19-f462eacbadc9",
+            "c2349275-5079-482f-8a53-f0c8027677d0",
+            "c1bde480-6d62-4541-86a2-708653087da9",
+            "8b411f87-c956-42d7-aa1b-106014029d31",
+            "83e284ca-0432-4366-a0cc-0a3ac6ff0a37",
+            "984ad5d1-eaf6-4de5-b86b-bbe089d11c58",
+            "e7921d81-0885-4db9-8f1d-86fd4136f177",
+            "cec7bbf3-f15b-47ce-956d-a77a1cbed3e6",
+            "6c792644-52e0-43d0-b79d-03741b7601bf",
+            "93d980ba-5fb5-4ee0-93e3-60a84efd9809",
+            "14b738a2-68fe-47e0-8423-6bd08729e518",
+            "cdd183ce-06fd-4163-958a-dc805ec77cef",
+            "64c03755-c963-4246-9d50-d4f3b1c4bef9",
+            "9c66f79a-8497-4d1b-9f99-9e960456f950",
+            "62e7e65d-1ec4-4bda-b165-70f4c1f3a06b",
+            "b8233616-cf48-4584-b84c-efdf9701c75a",
+            "ea90cbc3-c7eb-4a41-bfad-07e25b9c7b89",
+            "b5daf12e-2f85-4dff-b391-b03940e07171"
         ]
     },
     "changeNote": "",
@@ -18526,7 +20827,7 @@
         "locked": false,
         "stealable": true
     },
-    "modified": "2024-02-14T11:02:26+00:00",
+    "modified": "2024-04-08T14:21:24+00:00",
     "open_end": false,
     "parent": {
         "@id": "/content-types",
@@ -21911,9 +24212,9 @@
     "parent": {
         "@id": "/",
         "@type": "Plone Site",
-        "UID": "c3154008985841c9a35eae6280d43cca",
-        "description": "A Plone Site",
-        "title": "Welcome to volto-light-theme",
+        "UID": "1b35b0f859044561a33e71e7fb74c277",
+        "description": "Site created with a new Plone Distribution",
+        "title": "Plone",
         "type_title": "Plone Site"
     },
     "preview_caption": null,
@@ -21998,14 +24299,14 @@
         "locked": false,
         "stealable": true
     },
-    "modified": "2024-02-14T11:01:54+00:00",
+    "modified": "2024-04-08T10:01:39+00:00",
     "nav_title": null,
     "parent": {
         "@id": "/",
         "@type": "Plone Site",
-        "UID": "c3154008985841c9a35eae6280d43cca",
-        "description": "A Plone Site",
-        "title": "Welcome to volto-light-theme",
+        "UID": "1b35b0f859044561a33e71e7fb74c277",
+        "description": "Site created with a new Plone Distribution",
+        "title": "Plone",
         "type_title": "Plone Site"
     },
     "preview_caption": null,
