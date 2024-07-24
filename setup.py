@@ -49,7 +49,6 @@ setup(
         "setuptools",
         "Plone",
         "plone.distribution",
-        "plone.exportimport",
     ],
     extras_require={
         "test": [
